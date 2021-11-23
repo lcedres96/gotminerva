@@ -1,0 +1,37 @@
+.footer-nav {
+    ul {
+        padding-top: 2rem;
+        li {
+            margin-left: 8rem;
+            margin-right: 5rem;
+            a {
+                color: grey;
+                font-size: 1.6rem;
+            
+                &:hover {
+                    color: sandybrown;
+                }
+                
+            }
+        }
+    }
+}
+footer .div-menu-footer {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-redes a img {
+ float: right;
+ margin-right: 2rem +0.5;
+}
+.encontranos-redes {
+    font-size: 2rem -1;
+    margin-top: 2rem;
+}
+p{
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+footer {
+    background-color: papayawhip;
+}

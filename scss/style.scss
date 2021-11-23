@@ -1,0 +1,243 @@
+@import "lista";
+@import "maps";
+@import "index";
+@import "header";
+@import "footer";
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Lato", Sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+.header-logos img {
+    width: 2rem;
+}
+li {
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family:  map-get($font, font1);
+    text-align: center ;
+}
+p {
+    font-family: "Lato", Sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+a:hover {
+    color: nth($colors, 1);
+}
+li, p {
+    list-style: none;
+    font-size: 1.6rem;
+}
+.img-redes {
+    width: 3rem;
+}
+
+.logo-footer {
+    width: 10rem;
+    position: relative ;
+    left: 1rem +2;
+
+}
+
+
+
+.img-section-3{
+    width: 45rem;
+}
+.img-section-3-1 {
+    margin-left: 22rem;
+    width: 45rem;
+}
+button {
+    
+    color: nth($colors, 2 );
+    background-color: nth($colors, 1 );
+    border-radius: 0.6rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: map-get($font, font1);
+    border: 3px solid whitesmoke;
+}
+.h-1 {
+    font-size: 2rem;
+}
+.button-two {
+    padding-left: 19rem;
+    padding-right: 19rem;
+    transition: all 2s;
+}
+.button-two:hover {
+    transform: scale(1.05);
+}
+.button-two-2 {
+   
+    padding-left: 19rem;
+    padding-right: 19rem;
+    transition: all 2s;
+}
+.button-two-2:hover {
+    transform: scale(1.05);
+}
+button:hover {
+    color: nth($colors, 1 ) ;
+    background-color: nth($colors , 2 );
+    border: 3px solid nth($colors, 1 );
+}
+/* Seccion 4 iframe */
+.iframe-section { 
+    width: 80rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+iframe {
+    border: 0.4rem solid nth($colors, 4);
+}
+
+/* Css Pagina compras */
+
+.compras-nav{
+    color: nth($colors, 4) ;
+    font-size: 1.6rem;
+    font-family: "Lato", Sans-serif;
+    }
+main nav .compras-ul li {
+    margin: 3rem 7rem 0rem 6rem;
+    font-weight: 600;
+}
+    .h-compras {
+        color: nth($colors, 4);
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        
+    }
+    
+    .img-compras {
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+        width: 20rem;
+    }
+
+    /* Css Suport */
+
+.suport-nav {
+    color: map-get($font, colortext);
+    font-size: 1.6rem;
+    font-family: "Lato", Sans-serif;
+}
+ .main-suport nav ul li {
+     margin: 3rem 11rem 0rem 12rem;
+     font-weight: 600;
+ }
+
+.main-suport h2 {
+    color: map-get($font, colortext);
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 4rem 4rem 4rem 4rem 4rem ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.grid-item {
+
+    text-align: center;
+    font-family: "Lato", Sans-serif;
+    color: nth($colors, 6 );
+    font-size: 2rem;
+    position: relative bottom ;
+}
+
+.suport-p-final {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Css de Aboutus */
+
+.h-about {
+    color: nth($colors, 4);
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.nav-aboutus ul li {
+    margin: 3rem 5rem 0rem 5rem;
+    font-weight: 600; 
+    list-style: none;
+}
+
+.aboutus-nav {
+    color: nth($colors, 4);
+    font-size: 1.6rem;
+    font-family: "Lato", Sans-serif;
+}
+
+.aboutus-p-final {
+    margin-bottom: 2.5rem;
+}
+
+/* Css del formulario de contacto */
+
+.form1 {
+    color: nth($colors, 4);
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+    font-size: 6rem;
+}
+
+.form2 {
+    color: lightslategray;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.label {
+    text-align: center;
+    color: grey;
+}
+
+form p input,  textarea {
+    border: 0.1rem solid whitesmoke;
+    width: 30rem;
+    height: 3rem;
+    background: linear-gradient(to bottom right, salmon, whitesmoke);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+textarea {
+    height: 6rem;
+}
+
+#enviar {
+    margin-left: 20rem;
+}
+
+form .button-form {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) and (min-width: 2500px)  { 
+    main {
+        background-color: whitesmoke;
+    }
+    p {
+        font-size: 1rem;
+        margin: 1rem 5rem 1rem 5rem;
+    }
+ }

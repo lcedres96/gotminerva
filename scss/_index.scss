@@ -1,0 +1,50 @@
+.section-one { 
+    height: 400px;
+    background-image: url("./src/multimedia/images/backgroundsection1.jpg");
+    background-size: cover;
+    h2 {
+        font-size: 2.5rem;
+     padding: 8rem 0rem 4rem 0rem;
+     &:hover {
+        transform: scale(1.5);
+        transition: all 2s ;
+     } 
+    }
+    
+}
+.section-one p {
+    padding-left: 35rem;
+    padding-right: 35rem;
+    font-weight: 700;
+    font-style: italic;
+   }
+   .section-one button {
+    margin-top: 5rem;
+    transition: all 2s;
+     
+         &:hover {
+            transform: scale(1.3);
+         }
+     
+    }
+
+
+    .whatsnew {
+        font-size: 2rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .img-carrusel {
+        width: 20rem;
+    }
+    button {
+    
+        color: whitesmoke;
+        background-color: sandybrown;
+        border-radius: 0.6rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+        font-family: "Lato", Sans-serif;
+        border: 3px solid whitesmoke;
+    }

@@ -1,0 +1,28 @@
+
+/* CSS del header, bootstrap */
+.navbar {
+    background-color: white;
+}
+.logo {
+    width: 4rem;
+}
+li {
+     font-family: map-get($font, font1 );
+     
+}
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+.log{
+    width: 2rem;
+    margin-left: 3rem;
+}
+.buy {
+    width: 2rem;
+}
+
