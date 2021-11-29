@@ -60,12 +60,12 @@ li, p {
 }
 button {
     
-    color: nth($colors, 2 );
-    background-color: nth($colors, 1 );
+    color: whitesmoke;
+    background-color: sandybrown;
     border-radius: 0.6rem;
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 2rem;
-    font-family: map-get($font, font1);
+    font-family: "Lato", Sans-serif;
     border: 3px solid whitesmoke;
 }
 .h-1 {
