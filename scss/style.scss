@@ -230,6 +230,27 @@ form .button-form {
     padding-right: 3rem;
 }
 
+.tipo-ropa{
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+.precio {
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+#talle {
+   position: relative;
+   margin-left: 8.4rem;
+}
+
+.boton-compra {
+    position: relative;
+   margin-left: 7.2rem;
+}
+
 /* Mobile */
 
 @media screen and (max-width: 768px) and (min-width: 2500px)  { 
