@@ -49,61 +49,6 @@ li, p {
 
 }
 
-
-
-.img-section-3{
-    width: 45rem;
-}
-.img-section-3-1 {
-    margin-left: 22rem;
-    width: 45rem;
-}
-button {
-    
-    color: whitesmoke;
-    background-color: sandybrown;
-    border-radius: 0.6rem;
-    padding: 0.5rem;
-    font-size: 2rem;
-    font-family: "Lato", Sans-serif;
-    border: 3px solid whitesmoke;
-}
-.h-1 {
-    font-size: 2rem;
-}
-.button-two {
-    padding-left: 19rem;
-    padding-right: 19rem;
-    transition: all 2s;
-}
-.button-two:hover {
-    transform: scale(1.05);
-}
-.button-two-2 {
-   
-    padding-left: 19rem;
-    padding-right: 19rem;
-    transition: all 2s;
-}
-.button-two-2:hover {
-    transform: scale(1.05);
-}
-button:hover {
-    color: nth($colors, 1 ) ;
-    background-color: nth($colors , 2 );
-    border: 3px solid nth($colors, 1 );
-}
-/* Seccion 4 iframe */
-.iframe-section { 
-    width: 80rem;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-iframe {
-    border: 0.4rem solid nth($colors, 4);
-}
-
 /* Css Pagina compras */
 
 .compras-nav{
