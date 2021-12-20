@@ -196,14 +196,18 @@ form .button-form {
    margin-left: 7.2rem;
 }
 
-/* Mobile */
-
-@media screen and (max-width: 768px) and (min-width: 2500px)  { 
-    main {
-        background-color: whitesmoke;
-    }
-    p {
-        font-size: 1rem;
-        margin: 1rem 5rem 1rem 5rem;
-    }
- }
+@media handheld, only screen and (max-width: 950px) {
+    iframe {
+        margin: 0rem;
+        margin: auto;}
+     #buttons-index {
+         display: none;
+     }
+     .row-1 {
+         display: none;
+     }
+     iframe
+     {
+         display: none;
+     }
+}    

@@ -87,6 +87,11 @@ button:hover {
   border: 0.4rem solid grey;
 }
 
+@media screen and (max-width: 768px) and (min-width: 2500px) {
+  .img-grid {
+    width: 50%;
+  }
+}
 /* CSS del header, bootstrap */
 .navbar {
   background-color: white;
